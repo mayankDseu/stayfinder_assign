@@ -1,0 +1,68 @@
+
+
+.home-container {
+  padding: 24px;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  width: 100%;
+  max-width: 1080px;
+}
+
+.listing-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgb(0 0 0 / 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.listing-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.15);
+}
+
+.listing-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  color: #111827;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listing-location {
+  font-size: 0.875rem;
+  color: #6b7280; 
+  margin-bottom: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listing-price {
+  margin-top: auto; 
+  font-weight: 700;
+  font-size: 1.125rem;
+  color: #2563eb;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

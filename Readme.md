@@ -5,7 +5,6 @@ A full-stack web application inspired by Airbnb that allows users to list and bo
 ---
 
 
-
 ## 🛠️ Tech Stack
 
 ### Frontend
@@ -19,6 +18,10 @@ A full-stack web application inspired by Airbnb that allows users to list and bo
 - Express.js
 - JWT for authentication
 - MongoDB with Mongoose
+
+**HTTP Client**: Axios
+
+📌 I chose this stack because it's lightweight, fast to build prototypes, and widely used in real-world production apps. React + Node are great for building scalable SPAs with full control over routing and API communication.
 
 ---
 
@@ -47,3 +50,29 @@ Seeder script (`seeder.js`) creates:
 Run it with:
 ```bash
 node seeder.js
+
+### 💻 Comfortable with Frontend + Backend?
+
+Yes, I am comfortable working on both the frontend and backend.  
+If given a UI design, I can implement it using React (or any other frontend tech if needed), and connect it to a secure backend using RESTful APIs.
+
+### 💡 Two Unique Features to Improve Airbnb
+
+1. **Last-Minute Deal Detector**: Auto-detect listings that are unsold and check-in is within 24–48 hours → trigger discounts and flash deals.
+
+2. **Verified Neighborhood Vibe Score**: Use user reviews + AI summaries to assign a "Vibe Score" to areas (e.g., quiet, nightlife, family-friendly).
+
+### 🔒 Security and Scalability
+
+✅ **Security Measures**
+- I will hash the passwords with bcrypt
+- JWT tokens for protected routes
+- Role-based access control (guest vs host)
+- Input validation on both the side (backend + frontend)
+- MongoDB injection prevention using Mongoose
+
+📈 **Scalability Strategy**
+- Can use MongoDB Atlas for horizontal scaling
+- I will use CDN (e.g., Cloudflare) for static assets
+- Split frontend/backend into separate deployable services (microservices)
+- Use rate-limiting, logging, and monitoring tools (e.g., Winston + morgan + PM2)

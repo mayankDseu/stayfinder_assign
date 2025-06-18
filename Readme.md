@@ -4,10 +4,7 @@ A full-stack web application inspired by Airbnb that allows users to list and bo
 
 ---
 
-## 🌐 Live Demo (Optional)
-> Add link if deployed (e.g., on Vercel/Render)
 
----
 
 ## 🛠️ Tech Stack
 
